@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.271
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaVirtual", "LojaVirtual\LojaVirtual.csproj", "{E0951F39-4FB2-4250-B82F-86921BCAD326}"
 EndProject
@@ -13,6 +13,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PagarMe.Shared", "PagarMe\P
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PagarMe\PagarMe.Shared\PagarMe.Shared.projitems*{32784337-43ff-4b6e-9fb2-9cf1e92e8cae}*SharedItemsImports = 5
 		PagarMe\PagarMe.Shared\PagarMe.Shared.projitems*{a1e35f76-c32b-4490-bb52-282a27e0a37d}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
