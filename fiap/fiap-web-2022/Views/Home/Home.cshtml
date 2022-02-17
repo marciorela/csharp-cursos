@@ -1,0 +1,17 @@
+﻿@model Aluno
+@{
+    Layout = "_layout";
+    //Layout = null;
+}
+
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/home/politicas">Politicas</a></li>
+    </ul>
+</nav>
+
+<h1>Olá @ViewData["Nome"]</h1>
+<h1>Olá @ViewBag.Sobrenome</h1>
+<h1>Olá @Model.Nome</h1>
+<h1>Olá @Model.Sobrenome</h1>
